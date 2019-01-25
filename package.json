@@ -2,7 +2,8 @@
   "name": "share-online",
   "version": "1.0.0",
   "description": "Download share-online.biz files",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,6 +27,7 @@
     "url": "^0.11.0"
   },
   "devDependencies": {
-    "@types/node-fetch": "^2.1.4"
+    "@types/node-fetch": "^2.1.4",
+    "tslint": "^5.12.1"
   }
 }
